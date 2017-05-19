@@ -9,6 +9,12 @@ This was written to allow easier writing of bots or chat logs. Make sure to fami
 
 [doc]: http://discordpy.rtfd.org/en/latest
 
+### Fork Changes
+
+This fork contains a music bot(shuffle_mp3_bot.py) that plays mp3 files from a given Music folder. It supports $skip and $back commands using a queue and a stack to keep track of songs.
+
+Commands: $summon, $join, $play, $skip, $back, $pause, and $resume.
+
 ### Breaking Changes
 
 The discord API is constantly changing and the wrapper API is as well. There will be no effort to keep backwards compatibility in versions before `v1.0.0`.
